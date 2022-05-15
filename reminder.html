@@ -1,0 +1,37 @@
+<html>
+<head>
+<title>REMINDER</title>
+<link rel="stylesheet" href="rem.css">
+<script>
+	function readvalue()
+	{
+		var cal=document.getElementById("date").value;
+		var taskname=document.getElementById("taskname").value;
+		var addtask=document.getElementById("addtask").value;
+		alert("ADDED TO REMINDERS");
+		document.write("<br>");
+		document.write("DATE :"+"<br>"+cal+"<br>");
+		document.write("<br>");
+		document.write("REMINDER NAME:"+"<br>"+taskname+"<br>");
+		document.write("<br>");
+		document.write("REMINDER ADDED:"+"<br>"+addtask+"<br>");
+		}
+		
+		
+</script>
+</head>
+<body>
+<div class="container" >
+	<form name="textForm" onsubmit="readvalue()" action="">
+			User Id<input type="text" class="input-field" name="user_id" placeholder="enter your user_id or mail..." ><br>
+			<br>
+			Select Date<input type="date" class="input-field" id="date" required><br>
+			<br>
+			Remainder Name<input type="text" class="input-field" id="taskname" placeholder="add a Reminder..." ><br>
+			<br>
+			Add Text<textarea type="text" class="textarea-field" id="addtask" placeholder="whats on your mind!!??"></textarea>
+			<button type="submit" class="btn">ADD</button>
+	</form>
+</div>
+</body>
+</html>

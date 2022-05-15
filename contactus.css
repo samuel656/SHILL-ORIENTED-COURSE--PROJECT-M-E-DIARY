@@ -1,0 +1,229 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("cnt.jpg") no-repeat center;
+	background-size: cover;
+	
+}
+
+textarea {
+  font-family: sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .wrapper {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .wrapper {
+    max-width: 1140px;
+  }
+}
+
+.d-grid {
+  display: grid;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+button,
+select {
+  outline: none;
+  appearance: none;
+}
+
+button,
+.btn,
+select {
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ 
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+p {
+  
+  margin: 0;
+  padding: 0;
+}
+
+/* Section top bottom gap */
+.section-gap {
+  padding: 4.5rem 0;
+}
+
+@media screen and (max-width:767px) {
+  .section-gap {
+    padding: 3.5rem 0;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .section-gap {
+    padding: 3rem 0;
+  }
+}
+/* / Section top bottom gap */
+
+/* title-styling */
+h3.global-title {
+  font-size: 40px;
+  line-height: 45px;
+  color: #16191e;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width:767px) {
+  h3.global-title {
+    font-size: 40px;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width:600px) {
+  h3.global-title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  h3.global-title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+/* / title-styling */
+
+
+/* contact1 */
+  .margin-up {
+    margin-top: 2.5rem;
+  }
+
+  h4.sub-title {
+    font-size: 16px;
+    margin: 0;
+    color: #4cb1ff;
+    font-weight: normal;
+  }
+
+  .contact-view {
+    grid-template-columns: 1fr 1.3fr;
+    grid-gap: 30px;
+  }
+
+  .cont-top {
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-column-gap: 20px;
+  }
+
+  .twice {
+    margin-bottom: 20px;
+  }
+
+  .cont-details span.fa {
+    font-size: 22px;
+    color: #4cb1ff;
+    display: block;
+    margin-top: 3px;
+  }
+
+  .cont-details h6 {
+    font-size: 20px;
+    color: #051b35;
+    font-weight: 600;
+  }
+
+  .cont-details p,
+  .cont-details p a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    margin-top: 3px;
+  }
+
+  .cont-details p a:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+    color: #051b35;
+  }
+
+  .cont-details address {
+    margin: 25px 0;
+  }
+
+  .cont-details address p {
+    margin: 5px 0;
+  }
+
+  .image-section{
+	float: right;
+	width: 80%;
+	height:100%;
+	margin-top:5px;
+	margin-left:230px;
+	margin-right:auto;
+	
+}
+.image-section img{
+	width: 100%;
+	height: auto;
+	position:right;	
+}
